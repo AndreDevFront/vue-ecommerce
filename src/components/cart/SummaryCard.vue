@@ -19,7 +19,7 @@ export default {
         </v-card-subtitle>
         <v-card-text>
             <v-btn :href="whatsAppLink" target="_blank" variant="tonal" color="orange-lighten-2">
-                Realizar pedido
+                Finalizar
             </v-btn>
         </v-card-text>
     </v-card>
