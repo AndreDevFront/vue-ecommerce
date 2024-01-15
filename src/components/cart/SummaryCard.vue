@@ -12,7 +12,7 @@ export default {
 <template>
     <v-card>
         <v-card-title>
-            Resumen de la compra
+            Resumo da compra
         </v-card-title>
         <v-card-subtitle>
             Total a pagar: ${{ totalAmount }}
