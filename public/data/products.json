@@ -1,8 +1,8 @@
 [{
-    "name": "Silla", 
+    "name": "Cadeira", 
     "price": 56, 
     "id": 1, 
-    "image": "/products/silla.webp",
+    "image": "/products/cadeira.webp",
     "categoryId": 1
 }, {
     "name": "Monitor", 
@@ -11,19 +11,19 @@
     "image": "/products/monitor.jpg",
     "categoryId": 1
 }, {
-    "name": "Micrófono", 
+    "name": "Microfone", 
     "price": 20, 
     "id": 3, 
-    "image": "/products/microfono.jpg",
+    "image": "/products/microfone.jpg",
     "categoryId": 2
 }, {
-    "name": "Parlantes", 
+    "name": "Som", 
     "price": 56, 
     "id": 4,
-    "image": "/products/parlantes.jpg",
+    "image": "/products/som.jpg",
     "categoryId": 1
 }, {
-    "name": "Audífonos", 
+    "name": "Headphones", 
     "price": 450, 
     "id": 5,
     "image": "/products/headphones.jpg",

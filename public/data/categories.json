@@ -1,9 +1,9 @@
 [{
     "id": 1,
-    "name": "Oficina",
-    "description": "Productos para tu oficina."
+    "name": "Escritório",
+    "description": "Produtos para teu escritório."
 }, {
     "id": 2,
-    "name": "Computadora",
-    "description": "Accesorios para computadora."
+    "name": "Computadores",
+    "description": "Accesórios para computadores."
 }]

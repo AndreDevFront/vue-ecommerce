@@ -19,22 +19,22 @@ export default {
     <v-list-subheader>Ordenar por</v-list-subheader>
     <v-list-item link @click="orderByPrice" :active="order === 'price'">
         <v-list-item-title>
-            Más económico
+            Mais econômico
         </v-list-item-title>
     </v-list-item>
     <v-list-item link @click="orderByPriceDesc" :active="order === 'priceDesc'">
         <v-list-item-title>
-            Más costoso
+            Mais caro
         </v-list-item-title>
     </v-list-item>
     <v-list-item link @click="orderByName" :active="order === 'name'">
         <v-list-item-title>
-            Nombre (A-Z)
+            Nome (A-Z)
         </v-list-item-title>
     </v-list-item>
     <v-list-item link @click="orderByNameDesc" :active="order === 'nameDesc'">
         <v-list-item-title>
-            Nombre (Z-A)
+            Nome (Z-A)
         </v-list-item-title>
     </v-list-item>
 </template>

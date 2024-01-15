@@ -16,42 +16,31 @@ export default {
 <template>
     <v-card>
         <v-card-title>
-            Productos agregados al carrito
+            Produtos adicionados ao carrinho
         </v-card-title>
 
         <v-card-text>
             <v-table v-if="details.length > 0">
                 <thead>
                 <tr>
-                    <th class="text-left">
-                    Producto
-                    </th>
-                    <th class="text-center">
-                    Cantidad
-                    </th>
-                    <th>
-                        Precio
-                    </th>
-                    <th class="text-left">
-                    Subtotal
-                    </th>
-                    <th>
-                        <span class="d-sr-only">
-                            Eliminar
-                        </span>    
-                    </th>
+                    <th class="text-left">Produto</th>
+                    <th class="text-center">Quantidade</th>
+                    <th>Preço</th>
+                    <th class="text-left">Subtotal</th>
+                    <th><span class="d-sr-only">Remover</span></th>
                 </tr>
                 </thead>
                 <tbody>
                     <ShoppingCartItem
                         v-for="detail in details" 
                         :key="detail.product.id"
-                        :detail="detail" />
+                        :detail="detail" 
+                    />
                 </tbody>
             </v-table>
             <p v-else>
-                Aún no has agregado items a tu carrito de compras.
-                Haz <router-link to="/">clic aquí</router-link> para ver los productos disponibles.
+                Ainda não há items adicionados ao carrinho de compras.
+                Então <router-link to="/">clique aqui</router-link> para ver os produtos disponíveis.
             </p>
         </v-card-text>
     </v-card>
